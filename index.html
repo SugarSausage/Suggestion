@@ -13,20 +13,31 @@
             <h1> Шпорка для Владоса</h1>
         </div>    
     </div>
-    <div class="background">
+    <section class="sections">
+        <h2>Содержание</h2>
+        <ul>
+            <li><a href="#background">background</a></li>
+            <li><a href="#border">border</a></li>
+            <li><a href="#font">font</a></li>
+            <li><a href="#margin">margin</a></li>
+            <li><a href="#padding">padding</a></li>
+            <li><a href="#display">display</a></li>
+        </ul>
+    </section>   
+    <section id="#background" class="background">
         <div class="container">
             <h2>background</h2>
             <p>Ну очевидно ведь, то что на заднем плане.</p>
         </div>
-    </div>
-    <div class="border">
+    </section>
+    <section id="#border" class="border">
         <div class="container">
             <h2>border</h2>
             <p>border-color устанавливает цвет границы, значение может быть в любом допустимом для CSS формате
             Универсальное свойство border позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента. Значения могут идти в любом порядке, разделяясь пробелом, браузер сам определит, какое из них соответствует нужному свойству. Для установки границы только на определенных сторонах элемента, воспользуйтесь свойствами border-top, border-bottom, border-left, border-right.</p>  
         </div>
-    </div>
-    <div class="font">
+    </section>
+    <section id="font" class="font">
         <div class="container">
             <h2>font</h2>
             <p>
@@ -51,8 +62,8 @@
                 Шрифт для строки состояния окон.
             </p>
         </div>
-    </div>
-    <div class="margin">
+    </section>
+    <section id="margin" class="margin">
         <div class="container">
             <h2>margin</h2>
             <p>
@@ -65,8 +76,8 @@
                 Свойство margin позволяет задать величину отступа сразу для всех сторон элемента или определить ее только для указанных сторон
             </p>
         </div>
-    </div>
-    <div class="padding">
+    </section>
+    <section id="padding" class="padding">
         <div class="container">
             <h2>padding</h2>
             <p>
@@ -80,8 +91,44 @@
                 <br>Величину полей можно указывать в пикселах (px), процентах (%) или других допустимых для CSS единицах. Значение inherit указывает, что оно наследуется у родителя. При указании поля в процентах, значение считается от ширины родителя элемента
             </p>
         </div>
-    </div>
-    <div class="frame">
+    </section>
+    <section id="display" class="display">
+        <div class="container">
+            <h2>display</h2>
+            <p>
+                Устанавливает тип отображения элемента <br>   
+                Значения:
+                <ul>
+                    <li><b>block</b>: Блочный тип отображения. Занимает всю ширину родительского элемента. Можно настраивать вертикальные отступы, высоту.</li>
+                    <li>
+                        <b>inline</b>: Строчный тип отображения. Занимает ширину родительского элемента согласно габаритам собственного контента. <br>
+                        Нельзя настраивать вертикальные отступы, высоту. Нельзя размещать блочные элементы.
+                    </li>
+                    <li>
+                        <b>inline-block</b>: Блочно-строчный тип отображения. Занимает ширину родительского элемента согласно габаритам собственного контента. <br>
+                        Можно настраивать вертикальные отступы, высоту. Можно размещать блочные элементы.
+                    </li>
+                    <li>
+                        <b>flex</b>: хз как объяснить, ищи документацию
+                    </li>
+                    <li>
+                        <b>grid</b>: хз как объяснить, ищи документацию
+                    </li>
+                </ul>
+            </p>
+        </div>
+    </section>
+
+    <section id="display" class="display">
+        <div class="container">
+            <h2>@keyframes</h2>
+            <p>
+                Анимации
+            </p>
+        </div>
+    </section>
+
+    <section class="frame">
         <div class="container">
             <h3>KNOPKA</h3>
             <button class="test">
@@ -89,6 +136,6 @@
             </button>
         </div>
 
-    </div>
+    </section>
 </body>
 </html>
