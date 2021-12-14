@@ -7,6 +7,29 @@
     font-style: oblique;
 }
 
+.sections {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 20px;
+    width: fit-content;
+}
+
+.sections ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sections a {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+section h2 {
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
 .background {
     background-color: bisque ;
     font-style: unset;
