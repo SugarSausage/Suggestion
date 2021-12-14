@@ -1,0 +1,61 @@
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.zagolovok {
+    font-style: oblique;
+}
+
+.background {
+    background-color: bisque ;
+    font-style: unset;
+}
+
+.border {
+    border-color: violet;
+    border-style: groove;
+    border-top-width:20px ;
+}
+
+.font {
+    background-image: url('../image/ea12bbe6494279497c04e4a4355e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: italic;
+    color: blue;
+}
+
+.margin {
+    background-color: yellowgreen;
+    margin: 20px 40px 60px 90px;
+}
+
+.pading {
+    background-color: tomato;
+    padding-top: 90px;
+}
+.frame {
+    width: 70px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.test {
+    width: 130px;
+    height: 40px;
+    line-height: 47px;
+    padding: 0px;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgba(255,27,0,1)0%, rgba(251,75,2,1) 100%);
+}
+
+.test:hover {
+    color: royalblue;
+    background: transparent;
+        box-shadow: none;
+}    
+
+.
